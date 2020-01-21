@@ -1,0 +1,17 @@
+
+<hello name="{{ name }}"></hello>
+<div>
+  Total: $1000.00 
+  <a href="javascript:void(0);" (click)="toggle()">
+    <i class="fa fa-chevron-right" [ngClass]="{ active: iconValue }">&nbsp;</i>
+  </a>
+  <div class="break-down" [ngClass]="{ active: iconValue }">
+    <div>A: $100.00</div>
+    <div>B: $200.00</div>
+    <div>C: $300.00</div>
+    <div>D: $400.00</div>
+  </div>
+</div>
+<p>
+  Start editing to see some magic happen :)
+</p>

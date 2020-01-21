@@ -1,0 +1,20 @@
+p {
+  font-family: Lato;
+}
+
+.fa {
+  transition: transform 0.3s;
+}
+.fa.active {
+  transform: rotate(90deg);
+}
+
+.break-down {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.15s ease-out;
+}
+.break-down.active {
+  max-height: 500px;
+  transition: max-height 0.25s ease-in;
+}
